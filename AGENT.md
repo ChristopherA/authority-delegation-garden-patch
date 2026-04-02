@@ -60,4 +60,4 @@ Each node declares its type with `is_a::[[Form Name]]`. The form type tells you 
 
 ## What This Patch Does Not Include
 
-This is a curated selection. The source garden contains 350+ nodes across 17 form types. Nodes referenced but not included appear as ghost links — stakes marking where knowledge could grow. Miller citation nodes (authority-delegation research from Mark S. Miller's work) are being created and will be grafted in a future update.
+This is a curated selection. The source garden contains 350+ nodes across 17 form types. Nodes referenced but not included appear as ghost links — stakes marking where knowledge could grow.

@@ -49,17 +49,19 @@ The garden hosts questions it can't answer alone:
 - **[Federated Agent Governance Across Sovereign Estates](inquiries/Federated%20Agent%20Governance%20Across%20Sovereign%20Estates.html)** — coordination without centralization
 - **[Personal Sovereignty as a Membrane](inquiries/Personal%20Sovereignty%20as%20a%20Membrane.html)** — the biological metaphor applied to digital identity boundaries
 
-### Coming Soon: Miller Citation Nodes
+### Capability Security Foundations
 
-Citation dossiers for Mark S. Miller's foundational work on capability security are in preparation:
+Citation dossiers for the foundational work on capability security and least authority — the lineage from least privilege through object capabilities to authority delegation:
 
-- Miller (2006) *Robust Composition* — POLA as a canonical principle
-- Miller, Tulloh & Shapiro (2005) *The Structure of Authority* — "security is not a separable concern"
-- Miller & Drexler (1988) *Comparative Ecology* and *Markets and Computation* — the Agoric origins
-- Miller, Tribble, Pandya & Stiegler (1995) *The Open Society and its Media* — discourse infrastructure
-- Miller *Object Capabilities for Security* — the Google Tech Talk
+- **[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems.html)** — the paper that named the Principle of Least Privilege
+- **[Miller & Drexler (1988) Comparative Ecology](citations/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology.html)** — computational markets and agent design origins
+- **[Miller & Drexler (1988) Markets and Computation](citations/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation.html)** — market mechanisms as coordination architecture
+- **[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media.html)** — Popperian epistemology as discourse architecture
+- **[Miller, Tulloh & Shapiro (2005) The Structure of Authority](citations/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority.html)** — "security is not a separable concern"
+- **[Miller (2006) Robust Composition](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition.html)** — the dissertation that formalized POLA and object capabilities
+- **[Miller (2019) Architectures of Robust Openness](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness.html)** — robust social systems open to strangers
 
-These will include analysis and insights sub-files exploring how each source connects to progressive trust and sovereign-to-sovereign coordination.
+Each includes analysis and insights sub-files exploring how the source connects to progressive trust and sovereign-to-sovereign coordination.
 
 ## What Is a Garden Patch?
 
@@ -88,7 +90,7 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 - 3 [principles](principles/) — what should always be true
 - 2 [models](models/) — how elements relate
 - 2 [convictions](convictions/) — beliefs with grounding
-- 5 citation compounds (15 files) in [citations](citations/) — deep reads of published work
+- 12 citation compounds (37 files) in [citations](citations/) — deep reads of published work (5 Allen, 6 Miller, 1 Saltzer & Schroeder)
 - 9 [glosses](glosses/) — concept definitions and vocabulary bridges
 - 1 [boundary](boundaries/) — where responsibility changes hands
 - 1 [decision](decisions/) — architectural choice with rationale

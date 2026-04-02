@@ -2,7 +2,7 @@
 
 Complete registry of every node in this garden patch.
 
-**24 grafted nodes · 5 citation compounds · 35 form definitions grafted**
+**31 grafted nodes · 12 citation compounds · 35 form definitions grafted**
 
 ---
 
@@ -49,6 +49,27 @@ Primary sources with compound analysis and insights.
 - [\[\[Allen (2024) Progressive Trust\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust.html) — Trust deepens through verifiable stages, not binary trusted/untrusted switches
   - [\[\[Allen (2024) Progressive Trust — Analysis\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust%20%E2%80%94%20Analysis.html)
   - [\[\[Allen (2024) Progressive Trust — Insights\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust%20%E2%80%94%20Insights.html)
+- [\[\[Miller (2006) Robust Composition\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition.html) — The dissertation that formalized POLA and proved capabilities unify access control with concurrency
+  - [\[\[Miller (2006) Robust Composition — Analysis\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller (2006) Robust Composition — Insights\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition%20%E2%80%94%20Insights.html)
+- [\[\[Miller (2019) Architectures of Robust Openness\]\]](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness.html) — How to build social systems that are both robust against attacks and open to strangers
+  - [\[\[Miller (2019) Architectures of Robust Openness — Analysis\]\]](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller (2019) Architectures of Robust Openness — Insights\]\]](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness%20%E2%80%94%20Insights.html)
+- [\[\[Miller & Drexler (1988) Comparative Ecology\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology.html) — Why computational markets out-evolve biological ecosystems — and what that means for agent design
+  - [\[\[Miller & Drexler (1988) Comparative Ecology — Analysis\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller & Drexler (1988) Comparative Ecology — Insights\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology%20%E2%80%94%20Insights.html)
+- [\[\[Miller & Drexler (1988) Markets and Computation\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation.html) — Market mechanisms imported wholesale into the computational domain as a coordination architecture
+  - [\[\[Miller & Drexler (1988) Markets and Computation — Analysis\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller & Drexler (1988) Markets and Computation — Insights\]\]](citations/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation%20%E2%80%94%20Insights.html)
+- [\[\[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media\]\]](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media.html) — Popperian epistemology translated into hypertext architecture requirements for open discourse
+  - [\[\[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media — Analysis\]\]](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media — Insights\]\]](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media%20%E2%80%94%20Insights.html)
+- [\[\[Miller, Tulloh & Shapiro (2005) The Structure of Authority\]\]](citations/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority.html) — Authority structure must be woven in — security bolted on cannot compute least authority
+  - [\[\[Miller, Tulloh & Shapiro (2005) The Structure of Authority — Analysis\]\]](citations/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller, Tulloh & Shapiro (2005) The Structure of Authority — Insights\]\]](citations/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority%20%E2%80%94%20Insights.html)
+- [\[\[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems\]\]](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems.html) — The 1975 paper that named the Principle of Least Privilege and seven companion design criteria
+  - [\[\[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems — Analysis\]\]](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems%20%E2%80%94%20Analysis.html)
+  - [\[\[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems — Insights\]\]](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems%20%E2%80%94%20Insights.html)
 
 ### Glosses
 

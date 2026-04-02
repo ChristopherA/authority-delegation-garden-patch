@@ -16,7 +16,7 @@ tagline: "Extraction candidates from the 1975 principles paper, tagged by form t
 
 ### Principles
 
-**Target: [[Principle of Least Privilege]]** — `Principle Form` — direct
+**Target: [Principle of Least Privilege](../../glosses/Principle%20of%20Least%20Privilege.html)** — **Extracted** as Gloss
 The paper's Principle f: "Every program and every user of the system should operate using the least set of privileges necessary to complete the job." The paper provides both the canonical statement and the rationale (limits damage from accidents, reduces auditable surface, provides a rationale for placing firewalls). A Principle Form node would capture this as a first-class garden principle with its full definition, lineage, and application to agentic contexts.
 
 **Target: [[Fail-Safe Defaults]]** — `Principle Form` — direct
@@ -76,7 +76,7 @@ The least common mechanism principle counsels minimizing shared mechanisms, but 
 
 The following nodes are referenced or implied but do not exist in the garden:
 
-- [[Principle of Least Privilege]] — the primary garden node for this concept
+- [Principle of Least Privilege](../../glosses/Principle%20of%20Least%20Privilege.html) — **extracted** as gloss
 - [[Fail-Safe Defaults]] — should be a Principle Form node
 - [[Complete Mediation]] — should be a Principle Form node
 - [[Separation of Privilege]] — should be a Principle Form node
@@ -84,7 +84,7 @@ The following nodes are referenced or implied but do not exist in the garden:
 - [[Open Design]] — should be a Principle Form node (related to [[Kerckhoffs's Principle]])
 - [[Least Common Mechanism]] — should be a Principle Form node
 - [[Psychological Acceptability]] — should be a Principle Form node
-- [[Principle of Least Authority]] — Miller's 2006 extension; cited in [[Allen (2023) Least and Necessary Design Patterns]]
+- [Principle of Least Authority](../../glosses/Principle%20of%20Least%20Authority.html) — **extracted** as gloss
 - [[Two-Key Authorization Pattern]] — Pattern Form for the separation of privilege mechanism
 - [[Permission-First Default Pattern]] — Pattern Form for fail-safe defaults as architectural pattern
 - [[Access Control List vs. Capability System]] — Model Form comparison

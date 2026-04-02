@@ -93,7 +93,7 @@ The talk covers decades of capability research in 77 minutes, necessarily compre
 - relates_to::[[Mark S. Miller]]
   - Speaker; developer of the E language, co-founder of Agoric, designer of the object-capability security model
 
-- relates_to::[[Principle of Least Authority]]
+- relates_to::[Principle of Least Authority](../glosses/Principle%20of%20Least%20Authority.html)
   - The talk applies POLA to social systems: just as software components should hold minimum authority, social network participants should receive minimum capability grants for each interaction
 
 - relates_to::[[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems]]

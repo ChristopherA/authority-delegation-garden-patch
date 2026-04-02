@@ -74,3 +74,4 @@ This conviction integrates three decades of work across identity, governance, an
 - relates_to::[[Values Precede Technical Decisions]] — the conviction chain IS the values that precede technical decisions
 - relates_to::[[Authentic Collaboration Requires Agency]] — the membrane is what makes collaboration authentic rather than coerced
 - relates_to::[[Personal Sovereignty as a Membrane]] — the inquiry this conviction participates in
+- relates_to::[Dignity Not Asset Protection as Security Design Frame](../glosses/Dignity%20Not%20Asset%20Protection%20as%20Security%20Design%20Frame.html) — the dignity chain expressed as a security design constraint: protect people, not assets

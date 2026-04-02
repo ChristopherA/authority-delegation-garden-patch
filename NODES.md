@@ -2,7 +2,7 @@
 
 Complete registry of every node in this garden patch.
 
-**35 grafted nodes · 13 citation compounds · 35 form definitions grafted**
+**47 grafted nodes · 14 citation compounds · 35 form definitions grafted**
 
 ---
 
@@ -14,6 +14,7 @@ Core axioms grounding authority and delegation architecture.
 
 - [\[\[Authority Flows from the Person\]\]](principles/Authority%20Flows%20from%20the%20Person.html) — Identity is delegable, not alienable — authority originates with the person
 - [\[\[Human Authority Over Augmentation Systems\]\]](principles/Human%20Authority%20Over%20Augmentation%20Systems.html) — The vault augments human capability — the human retains authority at every level
+- [\[\[Progressive Disclosure Over Eager Loading\]\]](principles/Progressive%20Disclosure%20Over%20Eager%20Loading.html) — Start with the question, follow edges on demand, stop when context suffices
 - [\[\[Topology Determines Authority\]\]](principles/Topology%20Determines%20Authority.html) — The same persona, different topology, different authority
 
 ### Models
@@ -23,12 +24,19 @@ Structural representations of authority and delegation mechanisms.
 - [\[\[Authority Conferral Chain\]\]](models/Authority%20Conferral%20Chain.html) — Seven predicates encoding authority chains from principal through agent with scope and constraints
 - [\[\[The Self-Sovereign Estate Persona Architecture\]\]](models/The%20Self-Sovereign%20Estate%20Persona%20Architecture.html) — Self-sovereign identity principles applied to estate agent architecture — the same membrane that organizes a person's agents enables commons across estates
 
+### Patterns
+
+Recurring problem-solution structures observed across systems.
+
+- [\[\[Orchestrator-Worker Separation in Personal Multi-Agent Systems\]\]](patterns/Orchestrator-Worker%20Separation%20in%20Personal%20Multi-Agent%20Systems.html) — Domain owners on top, task executors below — the split every personal agent system needs
+
 ### Convictions
 
 Core value commitments grounding the architecture.
 
 - [\[\[Dignity Requires Sovereignty and Sovereignty Is a Membrane\]\]](convictions/Dignity%20Requires%20Sovereignty%20and%20Sovereignty%20Is%20a%20Membrane.html) — From dignity to sovereignty to membrane to moral obligation — the chain that governs system design
 - [\[\[Sovereignty Is Selective Permeability Not Absolute Control\]\]](convictions/Sovereignty%20Is%20Selective%20Permeability%20Not%20Absolute%20Control.html) — Sovereignty is a membrane, not a wall — selective permeability enables exchange while protecting autonomy
+- [\[\[Values Precede Technical Decisions\]\]](convictions/Values%20Precede%20Technical%20Decisions.html) — Ground technical decisions in human values — when values and convenience conflict, values win
 
 ### Citations
 
@@ -37,6 +45,9 @@ Primary sources with compound analysis and insights.
 - [\[\[Allen (2016) The Path to Self-Sovereign Identity\]\]](citations/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity.html) — The article that named self-sovereign identity and set its ten design principles
   - [\[\[Allen (2016) The Path to Self-Sovereign Identity — Analysis\]\]](citations/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity%20%E2%80%94%20Analysis.html)
   - [\[\[Allen (2016) The Path to Self-Sovereign Identity — Insights\]\]](citations/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity%20%E2%80%94%20Insights.html)
+- [\[\[Allen (2023) Least and Necessary Design Patterns\]\]](citations/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns.html) — Six design patterns for managing permissions, authority, and data access — and their inside-out counterparts
+  - [\[\[Allen (2023) Least and Necessary Design Patterns — Analysis\]\]](citations/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns%20%E2%80%94%20Analysis.html)
+  - [\[\[Allen (2023) Least and Necessary Design Patterns — Insights\]\]](citations/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns/Allen%20(2023)%20Least%20and%20Necessary%20Design%20Patterns%20%E2%80%94%20Insights.html)
 - [\[\[Allen (2021) Principal Authority\]\]](citations/Allen%20(2021)%20Principal%20Authority/Allen%20(2021)%20Principal%20Authority.html) — SSI gains legal teeth: Agency law duties replace aspirational best practices
   - [\[\[Allen (2021) Principal Authority — Analysis\]\]](citations/Allen%20(2021)%20Principal%20Authority/Allen%20(2021)%20Principal%20Authority%20%E2%80%94%20Analysis.html)
   - [\[\[Allen (2021) Principal Authority — Insights\]\]](citations/Allen%20(2021)%20Principal%20Authority/Allen%20(2021)%20Principal%20Authority%20%E2%80%94%20Insights.html)
@@ -88,6 +99,14 @@ Interpretive definitions that frame authority and delegation concepts.
 - [\[\[Principal Authority as Agency Law for Digital Identity\]\]](glosses/Principal%20Authority%20as%20Agency%20Law%20for%20Digital%20Identity.html) — Agency law applied to digital identity — five duties, five definitions, revocability as litmus test
 - [\[\[Structural Contract as Form Type Agreement\]\]](glosses/Structural%20Contract%20as%20Form%20Type%20Agreement.html) — The agreement that every instance of a form type follows the same internal structure
 - [\[\[Upstream Node as Source Garden Reference\]\]](glosses/Upstream%20Node%20as%20Source%20Garden%20Reference.html) — A node that exists in the source garden but was not grafted into this patch
+- [\[\[Principle of Least Privilege\]\]](glosses/Principle%20of%20Least%20Privilege.html) — The 1975 original — minimum permissions for the job, considered in isolation
+- [\[\[Principle of Least Authority\]\]](glosses/Principle%20of%20Least%20Authority.html) — Miller's expansion — privileges form a web of transitive authority, not isolated grants
+- [\[\[Principle of Least Access\]\]](glosses/Principle%20of%20Least%20Access.html) — Allen's extension into data — minimum exposure necessary, with correlation as the threat model
+- [\[\[Necessary Privilege\]\]](glosses/Necessary%20Privilege.html) — Allen's inversion — what does the user actually need? Everything else excluded by default
+- [\[\[Necessary Authority\]\]](glosses/Necessary%20Authority.html) — Allen's inversion of Miller — withholding necessary authority creates friction without improving safety
+- [\[\[Necessary Access\]\]](glosses/Necessary%20Access.html) — Allen's inversion of least access — declare data needs upfront for bilateral consent, not unilateral extraction
+- [\[\[Inside-Out Methodology as Design Pattern Innovation\]\]](glosses/Inside-Out%20Methodology%20as%20Design%20Pattern%20Innovation.html) — Flip a restrictive pattern inside out and you find the enabling pattern it was hiding
+- [\[\[Dignity Not Asset Protection as Security Design Frame\]\]](glosses/Dignity%20Not%20Asset%20Protection%20as%20Security%20Design%20Frame.html) — Security design protects people with dignity, not assets with classifications
 
 ### Boundaries
 

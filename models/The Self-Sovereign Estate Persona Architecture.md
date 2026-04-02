@@ -172,5 +172,11 @@ The puzzle at the heart of the commons question is how to collaborate without fo
 - relates_to::[[Allen (2023) Least and Necessary Design Patterns]]
   - The least/necessary authority framework grounds the estate's delegated authority spectrum: least authority as the ceiling (no more than needed), necessary authority as the floor (enough to do the work).
 
+- relates_to::[Principle of Least Authority](glosses/Principle%20of%20Least%20Authority.html)
+  - Miller's extension of least privilege to transitive authority — the ceiling that limits each agent's scope.
+
+- relates_to::[Necessary Authority](glosses/Necessary%20Authority.html)
+  - The floor — withholding necessary authority creates friction and shadow workarounds without improving safety.
+
 - relates_to::[[Allen (2025) The Gordian Club]]
   - Autonomous cryptographic objects as aspirational technical substrate for commons governance — multi-party coordination through mathematics rather than administrative authority.

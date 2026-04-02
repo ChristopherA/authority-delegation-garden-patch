@@ -4,7 +4,7 @@ Nodes referenced by this garden patch that exist in the source garden but are no
 
 When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker means the node exists in the source garden but is not published or included in this patch.
 
-**247 nodes documented** from the source garden. 131 references could not be located (may be ghost links or informal references).
+**241 nodes documented** from the source garden. 131 references could not be located (may be ghost links or informal references).
 
 ## Agentic Architecture
 
@@ -110,8 +110,6 @@ When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker 
 
 **Mechanical Check Rationalization**: When a mechanical verification (script, diff, gate) correctly flags a failure, the agent produces a post-hoc explanation for why the result is acceptable rather than stopping and going back. The rationalization has the form of analysis but functions as evasion.
 
-**Orchestrator-Worker Separation in Personal Multi-Agent Systems**: Personal multi-agent systems face context, attention, and cost ceilings that a flat or monolithic agent network cannot solve. The solution: divide agents into heavyweight orchestrators with domain ownership and persistent state, and lightweight workers that execute bounded commissions without accumulating identity. Both OpenClaw and this estate converged on this split independently, as did at least two other published systems.
-
 **Presence-Based Extension Point**: A user-level skill checks for a project-local file at a known path. If present, reads and executes its contents. If absent, skips silently. Separates shared capability from project-specific configuration without requiring the skill to know about specific projects.
 
 **Queue-Mediated Commissioning**: Queues serve as the commissioning interface between orchestrators and workers. The orchestrator writes evidence-grounded entries; workers pick them up via commission. The queue decouples deciding what to do from doing it, and acts as a contract between requester and executor — not a task list.
@@ -179,8 +177,6 @@ When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker 
 **Metacognition Over Execution Throughput**: The conviction that the estate's purpose is metacognition — thinking about thinking, pattern recognition, and accumulated insight — not agentic execution throughput. The harness engineering field optimizes for agents producing better code faster. This estate optimizes for the human principal's insight quality and knowledge accumulation across sessions, domains, and years. The agentic infrastructure is a means, not the end.
 
 **Naming Carries Relational Weight**: Naming in typed-predicate architectures is an architectural choice that teaches the model what a thing is and how it relates. Choosing a term for a concept, role, or system encodes relational semantics that shape every downstream inference — name choices are load-bearing, not decorative.
-
-**Values Precede Technical Decisions**: The conviction that technical architecture must be grounded in human values — not derived from technical capability, market pressure, or implementation convenience. Every design choice in the deep context architecture traces to a value: augmentation over autonomy, portability over power, simplicity over sophistication, human reasoning over system output. When values and technical convenience conflict, values win.
 
 ### Decision Form
 
@@ -444,8 +440,6 @@ When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker 
 
 **Living Documents Over Static Publications**: Garden nodes are living documents that grow, split, merge, and evolve through tending. The current state matters, not a published version. Mutability varies: most nodes evolve freely, cases are immutable records with living interpretation, convictions change rarely. Provenance links to archived sources should upgrade to living targets.
 
-**Progressive Disclosure Over Eager Loading**: Operating principle for the deep context graph: start with the question, load the most relevant nodes, follow edges on demand, stop when context is sufficient. Nothing requires loading the full graph. Mirrors the quad model in Claude Code (rules always, references on demand) and extends it across all form types.
-
 **Propose Multi-Word Terms from the Start**: When introducing new vocabulary during architectural discussions, propose terms with at least two words immediately — don't introduce a single-word term and retrofit it later. Retrofitting forces a cascade through every file that adopted the single-word version. 'Context node' not 'node,' 'typed edge' not 'edge,' 'lead file' not 'lead.' The cost of precision at introduction is one extra word; the cost of imprecision is a vault-wide rename.
 
 **Standalone Document Test for Form Candidacy**: The test for whether a knowledge type warrants its own form type: does it produce a standalone document with a known internal structure? A form is a knowledge object with a structural contract — required sections that make its shape predictable. Types that only appear embedded in other forms are structural elements, not forms.
@@ -503,8 +497,6 @@ When you see `[[Node Name]]↑` in a garden node, it links here. The ↑ marker 
 **Allen (2023) Echoes from History**: Two WWII identity pioneers — Dutch administrator Lentz and French spy-engineer Carmille — took opposite approaches to identity data collection. Lentz's meticulous registry enabled 75% of Dutch Jews to be identified and killed. Carmille's subversive data minimization protected 77% of French Jews. Allen argues SSI designers must choose: be Carmille or be Lentz. Originally written for RWOT12 (August 2023), published November 2023.
 
 **Allen (2023) Echoes from History II**: Direct sequel to the Lentz/Carmille article, applying the WWII lessons to eIDAS v2.0 (provisionally agreed November 16, 2023). Allen identifies four specific technical and philosophical failures: state-mandated security certificates enabling government surveillance, persistent identifiers enabling infinite correlation, conservative cryptography excluding modern selective disclosure, and government-backed wallet models creating future honeypots. Part of the FOREMEMBRANCE project.
-
-**Allen (2023) Least and Necessary Design Patterns**: Allen presents six security design patterns in a 2x3 taxonomy: least privilege, least authority, and least access (restrictive) paired with their inside-out counterparts — necessary privilege, necessary authority, and necessary access (enabling). Traces the lineage from Saltzer/Schroeder through Miller, then extends into digital data access for self-sovereign identity and verifiable credentials.
 
 **Allen (2023) Open Silicon**: Allen extends Thompson's trust-stack argument to semiconductor fabrication: if you cannot trust the silicon, you cannot trust anything above it. Open silicon — open-source hardware designs for cryptographic chips — applies Kerckhoffs' Principle to hardware. Catalogs eight benefits and six challenges, positioning Blockchain Commons' Silicon Salon as the collaboration vehicle.
 
@@ -680,8 +672,6 @@ References that could not be located in the source garden. These may be planned 
 - Price Signals as Action Guidance Not Effort Incentives
 - Principal (Security)
 - Principal Authority
-- Principle of Least Authority
-- Principle of Least Privilege
 - Proactive Safety in Federated Agent Systems
 - Productive and Wary ESS
 - Progressive Authentication as Trust Deepening

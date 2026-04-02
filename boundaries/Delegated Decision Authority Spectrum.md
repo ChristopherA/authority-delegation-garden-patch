@@ -74,3 +74,9 @@ Extracted from the "Decision Boundaries" section of the deep context architectur
 
 - relates_to::[[Human Authority Over Augmentation Systems]]
   - The spectrum implements the principle that human authority must be preserved at every decision level.
+
+- relates_to::[Principle of Least Authority](../glosses/Principle%20of%20Least%20Authority.html)
+  - The ceiling — each agent receives no more authority than needed for its commissioned scope.
+
+- relates_to::[Necessary Authority](../glosses/Necessary%20Authority.html)
+  - The floor — each agent receives enough authority to do its work without hitting barriers that force workarounds.

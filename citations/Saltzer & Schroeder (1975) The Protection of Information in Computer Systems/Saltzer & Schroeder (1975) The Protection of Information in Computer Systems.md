@@ -71,10 +71,10 @@ The eight design principles have become a standard reference in computer securit
 - relates_to::[[Allen (2023) Least and Necessary Design Patterns]]
   - Allen's 2023 article traces the design pattern lineage from this paper through Miller and extends it to data access in self-sovereign identity contexts
 
-- relates_to::[[Principle of Least Privilege]]
+- relates_to::[Principle of Least Privilege](../glosses/Principle%20of%20Least%20Privilege.html)
   - This citation is the origin source for the Principle of Least Privilege as a named, formal design criterion
 
-- relates_to::[[Principle of Least Authority]]
+- relates_to::[Principle of Least Authority](../glosses/Principle%20of%20Least%20Authority.html)
   - Least authority (Miller 2006) extends least privilege by recognizing transitive authority webs; this paper is the upstream source in that lineage
 
 - relates_to::[[Human Authority Over Augmentation Systems]]

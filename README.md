@@ -1,28 +1,32 @@
 # Authority Delegation Garden Patch
 
-A [garden patch](glosses/Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html) exploring authority delegation across boundaries — how authority flows from persons to agents, how it attenuates through delegation chains, and what happens when sovereign systems need to coordinate without anyone becoming the root authority.
+A [garden patch](glosses/Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html) exploring authority delegation across boundaries — published for a conversation between Christopher Allen and Mark S. Miller about naming the kinds of authority that flow through non-hierarchical agent systems.
 
-## The Problem This Patch Addresses
+## Why This Patch Exists
 
-I've been thinking about authority delegation for a long time — first through self-sovereign identity, then through progressive trust, and now through the lens of AI agent systems where a person delegates authority to agents who delegate to sub-agents.
+Mark, I built this for our conversation. You'll recognize the territory — it's the lineage from your Club System through Robust Composition to Horton, set alongside my work on progressive trust and self-sovereign identity. I've been running a system where AI agents delegate to sub-agents, grounded in Gordian Clubs and personal LLMs that run locally. Inside the system, attenuation works and is well named. At the boundaries — when agents cross into foreign access models, and especially when two sovereign systems need to build trust without either adopting the other's model — I don't have the words yet.
 
-The capability security community solved authority attenuation *inside* a system. Object capabilities, POLA, the principle that authority should be the minimum needed — these are well-understood. What's less well-understood is what happens *between* sovereign systems. When two people, each with their own agents, need to collaborate — that's not attenuation within a hierarchy. It's progressive trust across a boundary.
+I think your vocabulary is what I need. This patch organizes what I've been thinking so you can see where I am and where the gaps are.
 
-I think the interesting question isn't "how do we attenuate authority?" (solved) or "how do we model alien access?" (interesting). It's "how do sovereign systems build trust incrementally across heterogeneous architectures without anyone adopting anyone else's model?"
+It's also, in a way, a descendant of Xanadu. Typed nodes with labeled relationships, selective sharing from a private garden to a public projection, self-contained structure that doesn't depend on the source system. I'm already doing cross-patch exchange with other people who maintain their own knowledge systems — different naming conventions, different architectures, same conceptual territory — and the interoperability question we're navigating is itself the sovereign-to-sovereign problem I want to discuss with you.
 
-## What's in This Patch
+## Where to Start
 
-### The Narrative Spine
+### The Three Layers
 
-Start here and follow the thread:
+The conversation has a natural arc from solved to unsolved:
 
-1. **[Authority Flows from the Person](principles/Authority%20Flows%20from%20the%20Person.html)** — the foundational principle. All legitimate authority traces back to a person's sovereign choice.
+**Layer 1: Inside the estate — attenuation works.** Start with [Authority Flows from the Person](principles/Authority%20Flows%20from%20the%20Person.html), then [Authority Conferral Chain](models/Authority%20Conferral%20Chain.html), then [Delegated Decision Authority Spectrum](boundaries/Delegated%20Decision%20Authority%20Spectrum.html). Personal LLMs running locally, interlocking key infrastructure, delegation through progressively narrower scope. This is the warm-up — the question here is quick: does the cryptographic club model satisfy your OCap critique of the original?
 
-2. **[Authority Conferral Chain](models/Authority%20Conferral%20Chain.html)** — how authority moves through delegation: person → agent → sub-agent, with attenuation at each step.
+**Layer 2: Outward through alien access models.** When an agent crosses from key-based sovereign authority to someone else's system — SSH to GitHub, OAuth to an API — it holds a credential in a foreign access model. I have infrastructure for sovereign key discovery and coordination (described in the brief I sent). The OCap vocabulary for this crossing is what I want from you.
 
-3. **[Delegated Decision Authority Spectrum](boundaries/Delegated%20Decision%20Authority%20Spectrum.html)** — where does delegated authority end? The boundary conditions.
+**Layer 3: Sovereign-to-sovereign progressive trust.** Two people, each running their own agent system with their own keys and trust criteria. TOFU bootstraps first contact. [Progressive trust](citations/Allen%20(2022)%20Progressive%20Trust/Allen%20(2022)%20Progressive%20Trust.html) builds confidence through repeated interactions. But the vocabulary for achieving this cryptographically across sovereign boundaries and heterogeneous designs isn't well defined. Neither side should adopt the other's model. This is the hard question — [Progressive Trust as Agent Delegation Model](inquiries/Progressive%20Trust%20as%20Agent%20Delegation%20Model.html) frames it as an open inquiry.
 
-4. **[Progressive Trust as Agent Delegation Model](inquiries/Progressive%20Trust%20as%20Agent%20Delegation%20Model.html)** — the open question: can progressive trust govern agent delegation the way POLA governs capability attenuation?
+### The Horton Bridge
+
+Your [Horton paper](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems.html) bridges all three layers. Responsibility as authority coupled with accountability, layered on the capability substrate without modifying it — that's the architectural move I'm trying to extend. Blockchain Commons has building blocks Horton doesn't (cryptographic bearer proofs, self-contained objects, sovereign key discovery), and Horton has pieces we haven't built yet (the proxy/stub accountability layer, inductive trust bootstrapping). The [interposition pattern](glosses/Accountability%20as%20a%20Layer%20Not%20a%20Replacement.html) — adding coordination between systems without modifying either side — generalizes to the cross-garden problem this patch itself embodies.
+
+The Horton citation dossier includes [analysis](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems%20—%20Analysis.html) and [insights](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems%20—%20Insights.html) connecting the protocol to agent delegation architecture. I'd be curious how these land — whether the connections hold up to the person who designed the protocol.
 
 ### Sovereignty as Membrane
 
@@ -31,29 +35,11 @@ These two conviction nodes ground the sovereignty framing:
 - **[Dignity Requires Sovereignty and Sovereignty Is a Membrane](convictions/Dignity%20Requires%20Sovereignty%20and%20Sovereignty%20Is%20a%20Membrane.html)** — sovereignty is not absolute control but selective permeability
 - **[Sovereignty Is Selective Permeability Not Absolute Control](convictions/Sovereignty%20Is%20Selective%20Permeability%20Not%20Absolute%20Control.html)** — the membrane metaphor: what passes through, what doesn't, and who decides
 
-### Published Work
+## Your Papers in This Patch
 
-My articles grounding these concepts:
+I did deep reads of eight of your papers — each has a citation dossier with analysis and insights exploring how the source connects to progressive trust and sovereign-to-sovereign coordination:
 
-- **[Allen (2021) Principal Authority](citations/Allen%20(2021)%20Principal%20Authority.html)** — agency law principles applied to digital identity
-- **[Allen (2022) Progressive Trust](citations/Allen%20(2022)%20Progressive%20Trust.html)** — trust as graduated disclosure, not binary grant
-- **[Allen (2024) Progressive Trust](citations/Allen%20(2024)%20Progressive%20Trust.html)** — the updated version with practical patterns
-- **[Allen (2024) Building Trust in Gradients](citations/Allen%20(2024)%20Building%20Trust%20in%20Gradients.html)** — architectural implications
-- **[Allen (2016) The Path to Self-Sovereign Identity](citations/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity.html)** — where this thinking started
-
-### Open Questions
-
-The garden hosts questions it can't answer alone:
-
-- **[Progressive Trust as Agent Delegation Model](inquiries/Progressive%20Trust%20as%20Agent%20Delegation%20Model.html)** — where POLA and progressive trust might converge
-- **[Federated Agent Governance Across Sovereign Estates](inquiries/Federated%20Agent%20Governance%20Across%20Sovereign%20Estates.html)** — coordination without centralization
-- **[Personal Sovereignty as a Membrane](inquiries/Personal%20Sovereignty%20as%20a%20Membrane.html)** — the biological metaphor applied to digital identity boundaries
-
-### Capability Security Foundations
-
-Citation dossiers for the foundational work on capability security and least authority — the lineage from least privilege through object capabilities to authority delegation:
-
-- **[Saltzer & Schroeder (1975) The Protection of Information in Computer Systems](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems.html)** — the paper that named the Principle of Least Privilege
+- **[Saltzer & Schroeder (1975)](citations/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems/Saltzer%20%26%20Schroeder%20(1975)%20The%20Protection%20of%20Information%20in%20Computer%20Systems.html)** — the paper that named the Principle of Least Privilege
 - **[Miller & Drexler (1988) Comparative Ecology](citations/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology/Miller%20%26%20Drexler%20(1988)%20Comparative%20Ecology.html)** — computational markets and agent design origins
 - **[Miller & Drexler (1988) Markets and Computation](citations/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation/Miller%20%26%20Drexler%20(1988)%20Markets%20and%20Computation.html)** — market mechanisms as coordination architecture
 - **[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media.html)** — Popperian epistemology as discourse architecture
@@ -62,7 +48,23 @@ Citation dossiers for the foundational work on capability security and least aut
 - **[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems.html)** — the Horton protocol: accountability layered on capabilities
 - **[Miller (2019) Architectures of Robust Openness](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness.html)** — robust social systems open to strangers
 
-Each includes analysis and insights sub-files exploring how the source connects to progressive trust and sovereign-to-sovereign coordination.
+## My Published Work
+
+The articles grounding the progressive trust and self-sovereign identity side:
+
+- **[Allen (2016) The Path to Self-Sovereign Identity](citations/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity/Allen%20(2016)%20The%20Path%20to%20Self-Sovereign%20Identity.html)** — where this thinking started
+- **[Allen (2021) Principal Authority](citations/Allen%20(2021)%20Principal%20Authority/Allen%20(2021)%20Principal%20Authority.html)** — agency law principles applied to digital identity
+- **[Allen (2022) Progressive Trust](citations/Allen%20(2022)%20Progressive%20Trust/Allen%20(2022)%20Progressive%20Trust.html)** — trust as graduated disclosure, not binary grant
+- **[Allen (2024) Progressive Trust](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust.html)** — the updated version with practical patterns
+- **[Allen (2024) Building Trust in Gradients](citations/Allen%20(2024)%20Building%20Trust%20in%20Gradients/Allen%20(2024)%20Building%20Trust%20in%20Gradients.html)** — architectural implications
+
+## Open Questions
+
+The garden hosts questions it can't answer alone:
+
+- **[Progressive Trust as Agent Delegation Model](inquiries/Progressive%20Trust%20as%20Agent%20Delegation%20Model.html)** — where POLA and progressive trust might converge
+- **[Federated Agent Governance Across Sovereign Estates](inquiries/Federated%20Agent%20Governance%20Across%20Sovereign%20Estates.html)** — coordination without centralization
+- **[Personal Sovereignty as a Membrane](inquiries/Personal%20Sovereignty%20as%20a%20Membrane.html)** — the biological metaphor applied to digital identity boundaries
 
 ## What Is a Garden Patch?
 

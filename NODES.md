@@ -2,7 +2,7 @@
 
 Complete registry of every node in this garden patch.
 
-**31 grafted nodes · 12 citation compounds · 35 form definitions grafted**
+**34 grafted nodes · 13 citation compounds · 35 form definitions grafted**
 
 ---
 
@@ -49,6 +49,9 @@ Primary sources with compound analysis and insights.
 - [\[\[Allen (2024) Progressive Trust\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust.html) — Trust deepens through verifiable stages, not binary trusted/untrusted switches
   - [\[\[Allen (2024) Progressive Trust — Analysis\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust%20%E2%80%94%20Analysis.html)
   - [\[\[Allen (2024) Progressive Trust — Insights\]\]](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust%20%E2%80%94%20Insights.html)
+- [\[\[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems\]\]](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems.html) — The protocol that adds accountability to capabilities without sacrificing safety
+  - [\[\[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems — Analysis\]\]](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems%20%E2%80%94%20Analysis.html)
+  - [\[\[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems — Insights\]\]](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems%20%E2%80%94%20Insights.html)
 - [\[\[Miller (2006) Robust Composition\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition.html) — The dissertation that formalized POLA and proved capabilities unify access control with concurrency
   - [\[\[Miller (2006) Robust Composition — Analysis\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition%20%E2%80%94%20Analysis.html)
   - [\[\[Miller (2006) Robust Composition — Insights\]\]](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition%20%E2%80%94%20Insights.html)

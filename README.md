@@ -59,6 +59,7 @@ Citation dossiers for the foundational work on capability security and least aut
 - **[Miller, Tribble, Pandya & Stiegler (1995) The Open Society and its Media](citations/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media/Miller%2C%20Tribble%2C%20Pandya%20%26%20Stiegler%20(1995)%20The%20Open%20Society%20and%20its%20Media.html)** — Popperian epistemology as discourse architecture
 - **[Miller, Tulloh & Shapiro (2005) The Structure of Authority](citations/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority/Miller%2C%20Tulloh%20%26%20Shapiro%20(2005)%20The%20Structure%20of%20Authority.html)** — "security is not a separable concern"
 - **[Miller (2006) Robust Composition](citations/Miller%20(2006)%20Robust%20Composition/Miller%20(2006)%20Robust%20Composition.html)** — the dissertation that formalized POLA and object capabilities
+- **[Miller, Donnelley & Karp (2007) Delegating Responsibility in Digital Systems](citations/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems/Miller%2C%20Donnelley%20%26%20Karp%20(2007)%20Delegating%20Responsibility%20in%20Digital%20Systems.html)** — the Horton protocol: accountability layered on capabilities
 - **[Miller (2019) Architectures of Robust Openness](citations/Miller%20(2019)%20Architectures%20of%20Robust%20Openness/Miller%20(2019)%20Architectures%20of%20Robust%20Openness.html)** — robust social systems open to strangers
 
 Each includes analysis and insights sub-files exploring how the source connects to progressive trust and sovereign-to-sovereign coordination.
@@ -90,7 +91,7 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 - 3 [principles](principles/) — what should always be true
 - 2 [models](models/) — how elements relate
 - 2 [convictions](convictions/) — beliefs with grounding
-- 12 citation compounds (37 files) in [citations](citations/) — deep reads of published work (5 Allen, 6 Miller, 1 Saltzer & Schroeder)
+- 13 citation compounds (40 files) in [citations](citations/) — deep reads of published work (5 Allen, 7 Miller, 1 Saltzer & Schroeder)
 - 9 [glosses](glosses/) — concept definitions and vocabulary bridges
 - 1 [boundary](boundaries/) — where responsibility changes hands
 - 1 [decision](decisions/) — architectural choice with rationale

@@ -2,7 +2,7 @@
 
 Complete registry of every node in this garden patch.
 
-**34 grafted nodes · 13 citation compounds · 35 form definitions grafted**
+**35 grafted nodes · 13 citation compounds · 35 form definitions grafted**
 
 ---
 
@@ -108,6 +108,12 @@ Open questions under active investigation.
 - [\[\[Federated Agent Governance Across Sovereign Estates\]\]](inquiries/Federated%20Agent%20Governance%20Across%20Sovereign%20Estates.html) — What governs your agents in my space? — inter-estate trust for the commons
 - [\[\[Personal Sovereignty as a Membrane\]\]](inquiries/Personal%20Sovereignty%20as%20a%20Membrane.html) — Sovereignty is a membrane, not a wall — and in the agentic world, whose membrane is whose?
 - [\[\[Progressive Trust as Agent Delegation Model\]\]](inquiries/Progressive%20Trust%20as%20Agent%20Delegation%20Model.html) — Does agent delegation need a trust-evolution mechanism, or do escalation tiers already cover it?
+
+### Scenarios
+
+Future-facing narratives exploring where the architecture leads.
+
+- [\[\[Thousand Gardens with Autonomous Trust\]\]](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html) — What happens when gardens become autonomous cryptographic objects that trust each other progressively
 
 ### Domains
 

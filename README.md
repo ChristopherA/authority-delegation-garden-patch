@@ -35,6 +35,10 @@ These two conviction nodes ground the sovereignty framing:
 - **[Dignity Requires Sovereignty and Sovereignty Is a Membrane](convictions/Dignity%20Requires%20Sovereignty%20and%20Sovereignty%20Is%20a%20Membrane.html)** — sovereignty is not absolute control but selective permeability
 - **[Sovereignty Is Selective Permeability Not Absolute Control](convictions/Sovereignty%20Is%20Selective%20Permeability%20Not%20Absolute%20Control.html)** — the membrane metaphor: what passes through, what doesn't, and who decides
 
+And this model describes the working system where those principles actually operate — how self-sovereign identity patterns organize agent delegation inside the estate and enable commons across estates:
+
+- **[The Self-Sovereign Estate Persona Architecture](models/The%20Self-Sovereign%20Estate%20Persona%20Architecture.html)** — the same membrane that organizes a person's agents enables collaboration across sovereign systems
+
 ## Your Papers in This Patch
 
 I did deep reads of eight of your papers — each has a citation dossier with analysis and insights exploring how the source connects to progressive trust and sovereign-to-sovereign coordination:
@@ -58,6 +62,12 @@ The articles grounding the progressive trust and self-sovereign identity side:
 - **[Allen (2024) Progressive Trust](citations/Allen%20(2024)%20Progressive%20Trust/Allen%20(2024)%20Progressive%20Trust.html)** — the updated version with practical patterns
 - **[Allen (2024) Building Trust in Gradients](citations/Allen%20(2024)%20Building%20Trust%20in%20Gradients/Allen%20(2024)%20Building%20Trust%20in%20Gradients.html)** — architectural implications
 
+### Where This Goes
+
+The scenario node describes where this all points — thousands of independent gardens, each tended by sovereign agents running locally, exchanging nodes peer-to-peer through progressive trust:
+
+- **[Thousand Gardens with Autonomous Trust](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html)** — what happens when gardens become autonomous cryptographic objects that trust each other progressively
+
 ## Open Questions
 
 The garden hosts questions it can't answer alone:
@@ -69,6 +79,8 @@ The garden hosts questions it can't answer alone:
 ## What Is a Garden Patch?
 
 A garden patch is a curated projection of selected nodes from a personal knowledge garden, published for a specific audience and conversation. It is not a wiki, not documentation, and not a static paper. It is a typed knowledge graph rendered as a navigable website.
+
+This is the third garden patch. The [first](https://christophera.github.io/persona-garden-patch/) was published for a Thursday conversation about persona architecture — different audience, different slice of the same garden, but the same typed-node infrastructure underneath. The mechanism is still a prototype. I'm figuring out what works by doing it, and each patch teaches me something about what cross-garden exchange actually requires. The [scenario node](scenarios/Thousand%20Gardens%20with%20Autonomous%20Trust.html) describes where I think this goes — thousands of independent gardens sharing nodes peer-to-peer through progressive trust, each tended by sovereign agents running locally. We're a long way from that. But the patches are the first proof that the basic unit works: fork a slice, add your own connections, publish it for a conversation.
 
 Every page in this patch is a **garden node** — a markdown document with typed predicates (labeled directed edges) that connect it to other nodes. The predicates form a traversable graph: `relates_to::[[Target Node]]` is not a tag or a category — it is a structural relationship with an annotation explaining *how* the two nodes relate.
 
@@ -97,6 +109,7 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 - 10 [glosses](glosses/) — concept definitions and vocabulary bridges
 - 1 [boundary](boundaries/) — where responsibility changes hands
 - 1 [decision](decisions/) — architectural choice with rationale
+- 1 [scenario](scenarios/) — where this architecture leads
 - 3 [inquiries](inquiries/) — open questions the garden hosts
 - 3 [domains](domains/) — knowledge area definitions
 - 35 [form type definitions](forms/) — structural contracts governing every node

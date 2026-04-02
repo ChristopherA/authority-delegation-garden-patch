@@ -78,6 +78,7 @@ Primary sources with compound analysis and insights.
 
 Interpretive definitions that frame authority and delegation concepts.
 
+- [\[\[Accountability as a Layer Not a Replacement\]\]](glosses/Accountability%20as%20a%20Layer%20Not%20a%20Replacement.html) — Add coordination between sovereign systems without modifying either side
 - [\[\[Deep Context as Shared Language\]\]](glosses/Deep%20Context%20as%20Shared%20Language.html) — When practitioners share deep context, a single phrase invokes an entire framework of understanding
 - [\[\[Deep Context Graph Vocabulary\]\]](glosses/Deep%20Context%20Graph%20Vocabulary.html) — Plain markdown as a typed graph — nodes, edges, and predicates defined
 - [\[\[Garden Patch as Composable Knowledge Fragment\]\]](glosses/Garden%20Patch%20as%20Composable%20Knowledge%20Fragment.html) — A portable garden fork that reveals connections in external content through typed knowledge forms

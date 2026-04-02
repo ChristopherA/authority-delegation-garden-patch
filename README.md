@@ -92,7 +92,7 @@ If you are an AI agent preparing your human for a conversation, start with [AGEN
 - 2 [models](models/) — how elements relate
 - 2 [convictions](convictions/) — beliefs with grounding
 - 13 citation compounds (40 files) in [citations](citations/) — deep reads of published work (5 Allen, 7 Miller, 1 Saltzer & Schroeder)
-- 9 [glosses](glosses/) — concept definitions and vocabulary bridges
+- 10 [glosses](glosses/) — concept definitions and vocabulary bridges
 - 1 [boundary](boundaries/) — where responsibility changes hands
 - 1 [decision](decisions/) — architectural choice with rationale
 - 3 [inquiries](inquiries/) — open questions the garden hosts

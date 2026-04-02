@@ -1,0 +1,66 @@
+---
+created: 2026-03-05
+author: Christopher Allen
+brief_summary: "Defines the Inquiry form type: a thesis-driven investigation that marshals evidence, proposes hypotheses, and directs questions at specific people. The primary generative form — inquiries produce cases, patterns, and references. 11 nodes in Garden/inquiries/."
+tagline: "What should we think about X, and how would we find out? — the structural contract for inquiry forms"
+formatted: "2026-03-14"
+---
+
+- is_a::[[Form Type]]
+- has_status::[[Seed Stage]]
+- in_domain::[[Deep Context Architecture]]
+- in_precinct::[[Garden Precinct]]
+
+# Inquiry Form
+
+**Core question**: "What should we think about X, and how would we find out?"
+
+A thesis-driven investigation that marshals existing evidence, proposes hypotheses, and directs specific questions at specific people or groups. Distinguished from a gloss (which interprets existing sources) by being forward-looking rather than retrospective.
+
+Inquiries are the primary generative form: their hypotheses, if tested, produce cases; their parallels, if validated, become patterns; their syntheses, if completed, become references. An inquiry may be resolved (producing other nodes) or persist as an open research thread.
+
+## Structural Contract
+
+An inquiry form requires:
+
+- **Research question** — Clear framing of what's being investigated.
+- **Current state** — What's known, what hypotheses exist, what evidence has been gathered.
+- **Open questions** — Specific, answerable questions. Not vague wonderings.
+- **Workstream owner** — Which workstream tracks progress on this inquiry. Without a workstream binding, inquiries become write-only. When the inquiry moves domains or the owning workstream closes, the binding must be updated or transferred.
+- **Sources** — Evidence and references marshaled so far.
+- **Relations** — Connections to nodes the inquiry draws on or may produce.
+
+Optional: **Directed questions** using the `directed_at::` predicate to mark questions requiring a specific person's judgment. These are boundary markers — places where the system recognizes it has reached the limit of what it can resolve without human input.
+
+Naming heuristic: scope of investigation + what's being determined.
+
+## Typical Predicates
+
+- `is_a::[[Inquiry Form]]`
+- `has_status::[[Seed Stage]]` or `[[Growing Stage]]`
+- `in_domain::[[Deep Context Architecture]]`
+- `directed_at::[[Person Name]]` — flags questions for specific people
+- `extracted_from::[[Research Note]]` — provenance
+- `extends::[[Related Form]]` — applies a concept to new domain
+- `relates_to::[[Gloss Form]]`, `[[Pattern Form]]`
+
+## Exemplars
+
+- [[Compound Node Meeting Structure]] — directed questions about meeting compound node design
+- [[Personal Knowledge Management Method Adoption for Vault Architecture]] — comparative inquiry across personal knowledge management methods
+- [[Vault-Wide Compound Node Adoption]] — investigation with resolved structure and remaining questions
+
+## Category
+
+Generative form — drives the creation of new knowledge by posing questions.
+
+## Sources
+
+Definition from [[Deep Context as an Architecture for Captured Reasoning]], lines 107-108.
+
+## Relations
+
+- relates_to::[[Gloss Form]] — inquiries that resolve interpretive questions produce glosses
+- relates_to::[[Pattern Form]] — inquiries that identify recurring dynamics may crystallize into patterns
+- relates_to::[[Decision Form]] — inquiries that require a choice produce decisions
+- relates_to::[[Model Form]] — inquiries that map relationships produce models
